@@ -1,0 +1,15 @@
+create table agenda (
+nombre varchar (30) not null,
+domicilio varchar (30),
+telefono varchar(11));
+
+insert into AGENDA (nombre, domicilio,telefono)
+values ('Alberto morales' , ' colon 123' , '4321-4321');
+
+insert into AGENDA (nombre, domicilio, telefono)
+values ('juan torres','avellaneda 133','4444-4444');
+
+insert into AGENDA (nombre,domicilio)
+values ('Jorge Gomez', 'ARGENTINA 353');
+
+select * from agenda
